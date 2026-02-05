@@ -31,7 +31,7 @@ export default function Formacion() {
                     <i>Inforcol de Guatemala</i><br/>
                     <i>Terrazas de Villa Flores, 49 ave. Apto 503 Zona 7, San Miguel Petapa.</i>
                 </p>
-                <a className='btnContacto' href='documentos/Recomendacion laboral JEFREE INFORCOL.pdf' target='blank'>Carta de Recomendación</a>
+                <a className='btnContacto' href='../assets/Recomendacion laboral JEFREE INFORCOL.pdf' target='blank'>Carta de Recomendación</a>
 
             </article>
         </section>
