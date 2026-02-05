@@ -1,0 +1,271 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+  color: #fff;
+  background-color: #232121;
+}
+
+.header{
+  background-color: #292c4c;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+
+  animation: header-bar linear both;
+  animation-timeline: scroll(root block);
+  animation-range: 0 100px;
+}
+
+@keyframes header-bar{
+    100%{
+        /* background: rgba(255, 255, 255, .4); */
+        background: rgba(206, 206, 207,.8);
+        backdrop-filter: blur(2px);
+        z-index: 1;
+    }
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap:10px
+}
+
+.btnEnlace{
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: gray;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.main{
+  margin: 3% 8%;
+  display: flex;
+  height: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.main1, .main2{
+  flex:1;
+  flex-wrap: wrap;
+}
+
+.infoPersonal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.saludo{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-size: 1.4rem;
+  align-items: center;
+  padding: 30px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.gifSaludo{
+  padding: 20px;
+  display: block;
+  width: 80px;
+  margin: auto;
+  transition: .8s;
+  &:hover{
+    scale: 1.1;
+    cursor: pointer;
+    filter: drop-shadow(2px 2px 6px rgb(255, 255, 255));
+  }
+}
+
+.textSaludo{
+  padding: 20px;
+}
+
+.profesion{
+  width: 18ch;
+  font-size: 1.6rem;
+  text-wrap: nowrap;
+  overflow: hidden;
+  font-weight: bold; 
+
+  animation: flujo 4s steps(30) infinite alternate-reverse;
+}
+
+@keyframes flujo{
+    100%{
+        width: 0ch;
+    }
+}
+
+.textMaestria{
+  text-align: center;
+  font-weight: bold; 
+  font-size: 1.3rem;
+}
+
+.btnContacto{
+  padding: 10px 20px;
+  background-color: #171f26;
+  color: #fff;
+  border-radius: 8px;
+  transition: .8s;
+  text-decoration: none;
+  &:hover{
+    scale: 1.04;
+    background-color: #292c4c;
+  }
+}
+
+.logoContacto{
+  width: 20px;
+}
+
+.sectionFoto{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.fotoFormal{
+  border-radius: 8px;
+  width: 310px;
+  transition: .8s;
+  &:hover{
+    scale: 1.06;
+    box-shadow: 0 0 4px #fff, 0 0 10px #fff, 0 0 10px #fff, 0 0 10px #fff;
+  }
+
+}
+
+/* HABILIDADES */
+
+.sectionHabilidades{
+  margin: 3% 8%;
+}
+
+.habilidades{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.habilidad{
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  padding: 20px;
+  background-color: #171f26;
+  border-radius: 8px;
+  transition: .8s;
+  &:hover{
+    scale: 1.1;
+    box-shadow: 0 0 4px #fff, 0 0 10px #fff, 0 0 10px #fff, 0 0 10px #fff;
+  }
+}
+
+.imgHabilidad{
+  width: 60px;
+}
+
+/* PROYECTOS */
+
+.sectionProyectos{
+  margin: 3% 8%;
+}
+
+.tarjetas{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.tarjetaProyecto{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.descripcionProyecto{
+  height: 70px;
+  overflow: hidden;
+}
+
+.imgProyecto{
+  width: 400px;
+  height: 200px;
+  border-radius: 8px;
+  transition: .8s;
+  &:hover{
+    scale: 1.04;
+    box-shadow: 0 0 4px #fff, 0 0 10px #fff, 0 0 10px #fff, 0 0 10px #fff;
+  }
+}
+
+.imgTecnologiaProyecto{
+  width: 30px;
+  height: 30px;
+}
+
+/* FORMACION */
+
+.sectionformacionexperiencia{
+  margin: 3% 8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.institucion{
+  padding-left: 15px;
+}
+
+/* FOOTER */
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 1px;
+  background-color: #292c4c;
+}
+
+.enlaceRedes{
+  transition: .8s;
+  &:hover{
+    scale: 1.1;
+    filter: drop-shadow(2px 2px 6px rgb(255, 255, 255));
+  }
+}
