@@ -11,7 +11,7 @@ function App() {
       <div 
         className='body'
         style={{
-          backgroundImage: "url(/fondo.jpeg)",
+          backgroundImage: `url(${process.env.PUBLIC_URL}/fondo.jpeg)`
         }}
       >
         <Header/>
