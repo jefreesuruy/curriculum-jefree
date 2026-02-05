@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/curriculum-jefree/static/css/main.9a5f6757.css",
-    "main.js": "/curriculum-jefree/static/js/main.f1dca166.js",
+    "main.js": "/curriculum-jefree/static/js/main.9fabb298.js",
     "index.html": "/curriculum-jefree/index.html",
     "main.9a5f6757.css.map": "/curriculum-jefree/static/css/main.9a5f6757.css.map",
-    "main.f1dca166.js.map": "/curriculum-jefree/static/js/main.f1dca166.js.map"
+    "main.9fabb298.js.map": "/curriculum-jefree/static/js/main.9fabb298.js.map"
   },
   "entrypoints": [
     "static/css/main.9a5f6757.css",
-    "static/js/main.f1dca166.js"
+    "static/js/main.9fabb298.js"
   ]
 }
