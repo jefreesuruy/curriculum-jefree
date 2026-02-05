@@ -236,10 +236,46 @@ body{
   height: 30px;
 }
 
+.tecnologias_repo{
+  display: flex;
+  justify-content: space-around;
+}
+
+.btnRepo{
+  display: flex;
+  border-radius: 8px;
+  padding: 0px 20px;
+  background-color: #171f26;
+  color: #fff;
+  text-decoration: none;
+  align-items: center;
+  gap: 10px;
+  transition: .8s;
+  &:hover{
+    background-color: #292c4c;
+    scale: 1.04;
+    /* box-shadow: 0 0 4px #fff, 0 0 10px #fff, 0 0 10px #fff, 0 0 10px #fff; */
+  }
+}
+
+@media (max-width: 768px){
+  .tarjetaproyecto{
+    width: 320px;
+  }
+  .imgProyecto{
+    width: 320px;
+    height: 180px;
+  }
+  .descripcionProyecto{
+  height: 80px;
+  }
+}
+
 /* FORMACION */
 
 .sectionformacionexperiencia{
   margin: 3% 8%;
+  margin-bottom: 30px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;

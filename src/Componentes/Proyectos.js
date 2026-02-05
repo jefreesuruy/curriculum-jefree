@@ -24,12 +24,14 @@ export default function Proyectos() {
                         <img className='imgProyecto' src={ilovepets} alt='ilovepets'></img>
                     </a>
                     <p className='descripcionProyecto'>Sistema para la venta de alimento y productos para mascotas, ademas de una seccion informativa, carrito y confirmación de compras.</p>
-                    <div>
-                        <img className='imgTecnologiaProyecto' src={html} alt='html'></img>
-                        <img className='imgTecnologiaProyecto' src={css} alt='css'></img>
-                        <img className='imgTecnologiaProyecto' src={js} alt='js'></img>
-                        <img className='imgTecnologiaProyecto' src={react} alt='react'></img>
-                        <a href='https://github.com/jefreesuruy/Ilovepets' target='blank' rel='noreferrer'>
+                    <div className='tecnologias_repo'>
+                        <div>
+                            <img className='imgTecnologiaProyecto' src={html} alt='html'></img>
+                            <img className='imgTecnologiaProyecto' src={css} alt='css'></img>
+                            <img className='imgTecnologiaProyecto' src={js} alt='js'></img>
+                            <img className='imgTecnologiaProyecto' src={react} alt='react'></img>
+                        </div>
+                        <a className='btnRepo' href='https://github.com/jefreesuruy/Ilovepets' target='blank' rel='noreferrer'> Repositorio
                             <img className='imgTecnologiaProyecto' src={github} alt='github'></img>
                         </a>
                     </div>
@@ -41,10 +43,12 @@ export default function Proyectos() {
                         <img className='imgProyecto' src={poliautos} alt='poliautos'></img>
                     </a>
                     <p className='descripcionProyecto'>Sistema para la venta y alquiler de autos, ademas de otros servicios como financiamientos, mecanica general y limpieza.</p>
-                    <div>
-                        <img className='imgTecnologiaProyecto' src={html} alt='html'></img>
-                        <img className='imgTecnologiaProyecto' src={css} alt='css'></img>
-                        <a href='https://github.com/jefreesuruy/Poliautos' target='blank'>
+                    <div className='tecnologias_repo'>
+                        <div>
+                            <img className='imgTecnologiaProyecto' src={html} alt='html'></img>
+                            <img className='imgTecnologiaProyecto' src={css} alt='css'></img>
+                        </div>
+                        <a className='btnRepo' href='https://github.com/jefreesuruy/Poliautos' target='blank'>Repositorio
                             <img className='imgTecnologiaProyecto' src={github} alt='github'></img>
                         </a>
                     </div>
@@ -56,11 +60,13 @@ export default function Proyectos() {
                         <img className='imgProyecto' src={ventas} alt='ventas'></img>
                     </a>
                     <p className='descripcionProyecto'>Sistemas para la gestión de datos de productos, empleados, clientes y ventas de una tienda. "CRUD", es decir mostrar, crear, actualizar y eliminar información.</p>
-                    <div>
-                        <img className='imgTecnologiaProyecto' src={php} alt='php'></img>
-                        <img className='imgTecnologiaProyecto' src={mysql} alt='mysql'></img>
-                        <img className='imgTecnologiaProyecto' src={css} alt='css'></img>
-                        <a href='https://github.com/jefreesuruy/CRUD-Ventas' target='blank'>
+                    <div className='tecnologias_repo'>
+                        <div>
+                            <img className='imgTecnologiaProyecto' src={php} alt='php'></img>
+                            <img className='imgTecnologiaProyecto' src={mysql} alt='mysql'></img>
+                            <img className='imgTecnologiaProyecto' src={css} alt='css'></img>
+                        </div>
+                        <a className='btnRepo' href='https://github.com/jefreesuruy/CRUD-Ventas' target='blank'>Repositorio
                             <img className='imgTecnologiaProyecto' src={github} alt='github'></img>
                         </a>
                     </div>
