@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/curriculum-jefree/static/css/main.9a5f6757.css",
-    "main.js": "/curriculum-jefree/static/js/main.7e602324.js",
+    "main.css": "/curriculum-jefree/static/css/main.6af7fc7a.css",
+    "main.js": "/curriculum-jefree/static/js/main.bb1f1ec6.js",
     "static/media/lovepets.png": "/curriculum-jefree/static/media/lovepets.b1ec90b4ef70ef217208.png",
     "static/media/poliautos.png": "/curriculum-jefree/static/media/poliautos.2ce8a9642cc70dca3ddc.png",
     "static/media/Jefree-formal.png": "/curriculum-jefree/static/media/Jefree-formal.12a003d05f09779e2452.png",
@@ -10,11 +10,11 @@
     "static/media/Recomendacion laboral JEFREE INFORCOL.pdf": "/curriculum-jefree/static/media/Recomendacion laboral JEFREE INFORCOL.743b700f6906a4683f66.pdf",
     "static/media/fondo.jpeg": "/curriculum-jefree/static/media/fondo.bc17c3a6d8725121c15d.jpeg",
     "index.html": "/curriculum-jefree/index.html",
-    "main.9a5f6757.css.map": "/curriculum-jefree/static/css/main.9a5f6757.css.map",
-    "main.7e602324.js.map": "/curriculum-jefree/static/js/main.7e602324.js.map"
+    "main.6af7fc7a.css.map": "/curriculum-jefree/static/css/main.6af7fc7a.css.map",
+    "main.bb1f1ec6.js.map": "/curriculum-jefree/static/js/main.bb1f1ec6.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a5f6757.css",
-    "static/js/main.7e602324.js"
+    "static/css/main.6af7fc7a.css",
+    "static/js/main.bb1f1ec6.js"
   ]
 }
