@@ -5,13 +5,14 @@ import Proyectos from './Componentes/Proyectos';
 import Footer from './Componentes/Footer';
 import Habilidades from './Componentes/Habilidades';
 import Formacion from './Componentes/Formacion';
+import fondo from './assets/fondo.jpeg'
 
 function App() {
   return (
       <div 
         className='body'
         style={{
-          backgroundImage: `url(${process.env.PUBLIC_URL}/fondo.jpeg)`
+          backgroundImage: `url(${fondo})`
         }}
       >
         <Header/>
