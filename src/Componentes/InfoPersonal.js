@@ -6,7 +6,7 @@ export default function Main() {
             <section className='main'>
                 <article className='infoPersonal main1'>
                     <div className='saludo'>
-                        <img className='gifSaludo' src='/imagenes/saludo.gif' alt='gif saludo'/>
+                        <img className='gifSaludo' src={process.env.PUBLIC_URL + "/imagenes/saludo.gif"} alt='gif saludo' />
                         <p className='textSaludo'>¡Buenas! Un gusto para mi tenerte aqui, Mi nombre es Jefree Suruy.</p>
                     </div>
                     <h2 className='profesion'>Ingeniero en sistemas</h2>
