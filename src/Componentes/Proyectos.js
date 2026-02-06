@@ -9,6 +9,7 @@ import mysql from '../assets/mysql.png'
 import ilovepets from '../assets/lovepets.png'
 import poliautos from '../assets/poliautos.png'
 import ventas from '../assets/ventas.png'
+import boletos from '../assets/boletos.png'
 
 export default function Proyectos() {
     return (
@@ -67,6 +68,24 @@ export default function Proyectos() {
                             <img className='imgTecnologiaProyecto' src={css} alt='css'></img>
                         </div>
                         <a className='btnRepo' href='https://github.com/jefreesuruy/CRUD-Ventas' target='blank'>Repositorio
+                            <img className='imgTecnologiaProyecto' src={github} alt='github'></img>
+                        </a>
+                    </div>
+                </article>
+
+                <article className='tarjetaProyecto'>
+                    <h3>Autenticación y Roles</h3>
+                    <a href='https://jefree.infinityfreeapp.com/boletos' target='blank'>
+                        <img className='imgProyecto' src={boletos} alt='boletos'></img>
+                    </a>
+                    <p className='descripcionProyecto'>Sistemas de autenticación con control de roles, el cual determina el acceso y las acciones para cada usuario, garantizando la seguridad de la información.</p>
+                    <div className='tecnologias_repo'>
+                        <div>
+                            <img className='imgTecnologiaProyecto' src={php} alt='php'></img>
+                            <img className='imgTecnologiaProyecto' src={mysql} alt='mysql'></img>
+                            <img className='imgTecnologiaProyecto' src={css} alt='css'></img>
+                        </div>
+                        <a className='btnRepo' href='https://github.com/jefreesuruy/Boletos' target='blank'>Repositorio
                             <img className='imgTecnologiaProyecto' src={github} alt='github'></img>
                         </a>
                     </div>
