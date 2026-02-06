@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/curriculum-jefree/static/css/main.6af7fc7a.css",
-    "main.js": "/curriculum-jefree/static/js/main.bb1f1ec6.js",
+    "main.js": "/curriculum-jefree/static/js/main.c154b229.js",
     "static/media/lovepets.png": "/curriculum-jefree/static/media/lovepets.b1ec90b4ef70ef217208.png",
+    "static/media/boletos.png": "/curriculum-jefree/static/media/boletos.64bf3aa18fd3a4902287.png",
     "static/media/poliautos.png": "/curriculum-jefree/static/media/poliautos.2ce8a9642cc70dca3ddc.png",
     "static/media/Jefree-formal.png": "/curriculum-jefree/static/media/Jefree-formal.12a003d05f09779e2452.png",
     "static/media/saludo.gif": "/curriculum-jefree/static/media/saludo.234ac59102be603b6f05.gif",
@@ -11,10 +12,10 @@
     "static/media/fondo.jpeg": "/curriculum-jefree/static/media/fondo.bc17c3a6d8725121c15d.jpeg",
     "index.html": "/curriculum-jefree/index.html",
     "main.6af7fc7a.css.map": "/curriculum-jefree/static/css/main.6af7fc7a.css.map",
-    "main.bb1f1ec6.js.map": "/curriculum-jefree/static/js/main.bb1f1ec6.js.map"
+    "main.c154b229.js.map": "/curriculum-jefree/static/js/main.c154b229.js.map"
   },
   "entrypoints": [
     "static/css/main.6af7fc7a.css",
-    "static/js/main.bb1f1ec6.js"
+    "static/js/main.c154b229.js"
   ]
 }
