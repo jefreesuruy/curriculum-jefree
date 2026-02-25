@@ -11,7 +11,7 @@ export default function Habilidades() {
     return (
         <section className='sectionHabilidades'>
 
-            <h2 id='habilidades'>Habilidades</h2>
+            <h2>Habilidades</h2>
 
             <article className='habilidades'>
                 <div className='habilidad'>
@@ -40,7 +40,7 @@ export default function Habilidades() {
                 </div>
                 <div className='habilidad'>
                     <p>MYSQL</p>
-                    <img className='imgHabilidad' src={mysql} alt='logo MYSQL'></img>
+                    <img id='Proyectos' className='imgHabilidad' src={mysql} alt='logo MYSQL'></img>
                 </div>
             </article>
 

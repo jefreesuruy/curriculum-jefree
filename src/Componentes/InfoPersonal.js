@@ -7,15 +7,15 @@ import github from '../assets/github.png'
 
 export default function Main() {
     return (
-        <main id="quienSoy">
+        <main>
             <section className='main'>
                 <article className='infoPersonal main1'>
-                    <div className='saludo'>
+                    <div id="quienSoy" className='saludo'>
                         <img className='gifSaludo' src={saludo} alt='gif saludo' />
                         <p className='textSaludo'>¡Buenas! Un gusto para mi tenerte aqui, Mi nombre es Jefree Suruy.</p>
                     </div>
                     <h2 className='profesion'>Ingeniero en sistemas</h2>
-                    <h3 className='textMaestria'>MASTER EN REDES Y TELECOMUNICACIONES</h3>
+                    <h3 id='habilidades' className='textMaestria'>MASTER EN REDES Y TELECOMUNICACIONES</h3>
                     <nav className='nav'>
                         <a className='btnContacto' href="https://www.linkedin.com/in/jefree-suruy-783576274/?originalSubdomain=gt" target='_blank' rel="noopener noreferrer">
                             <img className='logoContacto' src={linkedin} alt='logo Linkedin'/> LinkedIn

@@ -15,7 +15,7 @@ export default function Proyectos() {
     return (
         <section className='sectionProyectos'>
 
-            <h2 id='Proyectos'>Proyectos</h2>
+            <h2>Proyectos</h2>
 
             <div className='tarjetas'>
 

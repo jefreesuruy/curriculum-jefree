@@ -7,6 +7,8 @@ body{
   background-color: #232121;
 }
 
+/*HEADER*/
+
 .header{
   background-color: #292c4c;
   display: flex;
@@ -17,19 +19,27 @@ body{
   position: sticky;
   top: 0;
 
-  animation: header-bar linear both;
+  /* animation: header-bar linear both;
   animation-timeline: scroll(root block);
-  animation-range: 0 100px;
+  animation-range: 0 100px; */
 }
 
 @keyframes header-bar{
     100%{
-        /* background: rgba(255, 255, 255, .4); */
         background: rgba(206, 206, 207,.8);
         backdrop-filter: blur(2px);
         z-index: 1;
     }
 }
+
+@supports (animation-timeline: scroll()) {
+  .header {
+    animation: header-bar linear both;
+    animation-timeline: scroll(root block);
+    animation-range: 0 100px;
+  }
+}
+
 
 .nav{
   display: flex;
@@ -39,15 +49,115 @@ body{
   align-items: center;
   gap:10px
 }
-
-.btnEnlace{
-  margin: 5px;
-  padding: 10px 20px;
-  background-color: gray;
-  border-radius: 8px;
-  text-decoration: none;
-  color: #fff;
+  
+  nav ul {
+    float: right;
+    margin-right: 20px;
+  }
+  
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
 }
+
+nav ul li a {
+    color: #fff;
+    background-color: gray;
+    font-size: 17px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    transition: 0.8s;
+    text-decoration: none;
+
+    animation: color-header-bar linear both;
+    animation-timeline: scroll(root block);
+    animation-range: 0 100px;
+    top: 0;
+    color: #fff;
+    transition: .8s;
+}
+
+a:hover{
+
+  box-shadow: 0 0 4px #fff, 0 0 10px #fff, 0 0 10px #fff, 0 0 10px #fff;
+}
+
+.checkbtn {
+    font-size: 22px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media (max-width: 1050px) {
+    label.logo {
+        padding-left: 30px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+
+/* Responsive media query code for small screen */
+@media (max-width: 768px) {
+    .checkbtn {
+        display: block;
+        cursor: pointer;
+    }
+
+    label.logo {
+        font-size: 22px;
+    }
+    ul {
+        position: fixed;
+        width: 50%;
+        height: 100vh;
+        background: #444;
+        top: 65px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+        z-index: 99999;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 20px;
+    }
+
+    nav ul li a {
+        font-size: 18px;
+        transition: 0.8s;
+    }
+
+    a:hover,
+    a.active {
+        background-color: #292c4c;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+}
+
+@media (max-width: 300px) {
+    p {
+        font-size: 2px;
+    }
+}
+
+/* MAIN */
 
 .main{
   margin: 3% 8%;
